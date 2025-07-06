@@ -1,0 +1,359 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Chroniqo</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='bx bxs-watch nav__logo-icon'></i> Chroniqo
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart__close' id="cart-close"></i>
+            <h2 class="cart__title-center">Step 1 : My Cart</h2>
+            <div class="cart__container">
+
+            </div>
+
+            <div class="cart__footer">
+                <div class="cart__prices">
+                    <span class="cart__prices-total" id="cart-total">Total: $0.00</span>
+                </div>
+                <a href="checkout.html" class="button cart__checkout-btn">Checkout</a>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/home.png" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">NEW WATCH <br> COLLECTIONS B720</h1>
+                        <p class="home__description">
+                            Latest arrival of the new imported watches of the B720 series, 
+                            with a modern and resistant design.
+                        </p>
+                        <span class="home__price">$1245</span>
+
+                        <div class="home__btns">
+                            <a href="#" class="button button--gray button--small">
+                                Discover
+                            </a>
+
+                            <button class="button home__button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Featured
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/featured1.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Jazzmaster</h3>
+                            <span class="featured__price">$1050</span>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/featured2.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Ingersoll</h3>
+                            <span class="featured__price">$250</span>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Sale</span>
+
+                        <img src="assets/img/featured3.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Rose gold</h3>
+                            <span class="featured__price">$890</span>
+                        </div>
+
+                        <button class="button featured__button">ADD TO CART</button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Our Story
+                        </h2>
+    
+                        <h1 class="story__title">
+                            Where Time Finds <br> Its Style.
+                        </h1>
+    
+                        <p class="story__description">
+                            At Chroniqo, we connect watch lovers with the timepieces that define them. Whether you're chasing your first luxury piece or expanding your collection, we bring together verified sellers, trusted brands, and great deals in one place. We're more than a store — we're a destination for watch enthusiasts. Find the watch that tells your story.
+                        </p>
+    
+                        <a href="#" class="button button--small">Discover</a>
+                    </div>
+
+                    <div class="story__images">
+                        <img src="assets/img/story.png" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Products
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                        <img src="assets/img/product1.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Spirit rose</h3>
+                        <span class="products__price">$1500</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/product2.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Khaki pilot</h3>
+                        <span class="products__price">$1350</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/product3.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Jubilee black</h3>
+                        <span class="products__price">$870</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/product4.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Fosil me3</h3>
+                        <span class="products__price">$650</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                        <img src="assets/img/product5.png" alt="" class="products__img">
+
+                        <h3 class="products__title">Duchen</h3>
+                        <span class="products__price">$950</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">
+                    New Arrivals
+                </h2>
+                
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/new1.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Longines rose</h3>
+                                    <span class="new__price">$980</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/new2.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Jazzmaster</h3>
+                                    <span class="new__price">$1150</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/new3.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Dreyfuss gold</h3>
+                                    <span class="new__price">$750</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <span class="new__tag">New</span>
+        
+                                <img src="assets/img/new4.png" alt="" class="new__img">
+        
+                                <div class="new__data">
+                                    <h3 class="new__title">Portuguese rose</h3>
+                                    <span class="new__price">$1590</span>
+                                </div>
+        
+                                <button class="button new__button">ADD TO CART</button>
+                            </article>                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="newsletter__description">
+                            Don't miss out on your discounts. Subscribe to our email 
+                            newsletter to get the best offers, discounts, coupons, 
+                            gifts and much more.
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <span class="footer__copy">Copyright &copy; Chroniqo 2025</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
